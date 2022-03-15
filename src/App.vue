@@ -3,6 +3,7 @@
     <NovoComponente/>
     <TesteIf />
     <TesteFor />
+    <TesteEvento />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import NovoComponente from './components/NovoComponente.vue'
 import TesteIf from './components/TesteIf.vue'
 import TesteFor from './components/TesteFor.vue'
+import TesteEvento from './components/TesteEvento.vue'
 
 export default {
   name: 'App',
   components: {
     NovoComponente,
     TesteIf,
-    TesteFor
+    TesteFor,
+    TesteEvento
   }
 }
 </script>
