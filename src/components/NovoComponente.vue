@@ -1,6 +1,7 @@
 <template>
   <div class="novo-componente">
-    <h1>Teste</h1>
+    <h1>Novo Componente</h1>
+    <p>teste</p>
   </div>
 </template>
 
