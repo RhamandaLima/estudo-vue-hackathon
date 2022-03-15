@@ -2,18 +2,21 @@
   <div id="app">
     <NovoComponente/>
     <TesteIf />
+    <TesteFor />
   </div>
 </template>
 
 <script>
 import NovoComponente from './components/NovoComponente.vue'
 import TesteIf from './components/TesteIf.vue'
+import TesteFor from './components/TesteFor.vue'
 
 export default {
   name: 'App',
   components: {
     NovoComponente,
-    TesteIf
+    TesteIf,
+    TesteFor
   }
 }
 </script>
