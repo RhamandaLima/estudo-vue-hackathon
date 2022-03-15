@@ -5,6 +5,7 @@
     <TesteFor />
     <TesteEvento />
     <SitesFavoritos />
+    <DesafioContador />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import TesteIf from './components/TesteIf.vue'
 import TesteFor from './components/TesteFor.vue'
 import TesteEvento from './components/TesteEvento.vue'
 import SitesFavoritos from './components/SitesFavoritos.vue'
+import DesafioContador from './components/DesafioContador.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     TesteIf,
     TesteFor,
     TesteEvento,
-    SitesFavoritos
+    SitesFavoritos,
+    DesafioContador
   }
 }
 </script>
